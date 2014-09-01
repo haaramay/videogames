@@ -3,13 +3,18 @@ using System.Collections;
 
 public class TrapMovement : MonoBehaviour {
 
-	public float max_height;
-	public float min_height;
+	private float max_height;
+	private float min_height;
+
+	public float range;
 	public float speed;
+
 
 	// Use this for initialization
 	void Start () {
 		rigidbody.velocity = transform.forward * speed;
+		max_height = transform.position.y + range;
+		min_height = transform.position.y;
 	}
 	
 	// Update is called once per frame
@@ -18,7 +23,6 @@ public class TrapMovement : MonoBehaviour {
 				rigidbody.velocity = transform.forward * -speed;
 		if (transform.position.y <= min_height)
 			rigidbody.velocity = transform.forward * speed;
-
 
 	}
 }

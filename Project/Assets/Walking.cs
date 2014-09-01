@@ -21,6 +21,10 @@ public class Walking : MonoBehaviour {
 	{
 		float movHorizontal = Input.GetAxis ("Horizontal")*speed;
 		//float movVertical = Input.GetAxis ("Vertical");
+
+		Vector3 targetDirection = new Vector3 (transform.position.x+movHorizontal,transform.position.y,transform.position.z);
+		transform.LookAt(targetDirection); 
+
 		Vector3 movement = new Vector3 (movHorizontal,rigidbody.velocity.y, 0.0f );
 		rigidbody.velocity = movement;
 		if (movHorizontal != 0)
