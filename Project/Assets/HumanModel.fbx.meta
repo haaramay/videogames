@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: aaf706d2b2907e64a8b705fc68322667
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature|ArmIK.L
+    100004: Armature|ArmIK.R
+    100006: Armature|Chest
+    100008: Armature|Elbow.L
+    100010: Armature|Elbow.R
+    100012: Armature|Foot.L
+    100014: Armature|Foot.R
+    100016: Armature|Head
+    100018: Armature|Hip
+    100020: Armature|Knee.L
+    100022: Armature|Knee.R
+    100024: Armature|LegIK.L
+    100026: Armature|LegIK.R
+    100028: Armature|LoweArm.L
+    100030: Armature|LoweArm.R
+    100032: Armature|LowerLeg.L
+    100034: Armature|LowerLeg.R
+    100036: Armature|UpperArm.L
+    100038: Armature|UpperArm.R
+    100040: Armature|UpperLeg.L
+    100042: Armature|UpperLeg.R
+    100044: Bob
+    100046: //RootNode
+    400000: Armature
+    400002: Armature|ArmIK.L
+    400004: Armature|ArmIK.R
+    400006: Armature|Chest
+    400008: Armature|Elbow.L
+    400010: Armature|Elbow.R
+    400012: Armature|Foot.L
+    400014: Armature|Foot.R
+    400016: Armature|Head
+    400018: Armature|Hip
+    400020: Armature|Knee.L
+    400022: Armature|Knee.R
+    400024: Armature|LegIK.L
+    400026: Armature|LegIK.R
+    400028: Armature|LoweArm.L
+    400030: Armature|LoweArm.R
+    400032: Armature|LowerLeg.L
+    400034: Armature|LowerLeg.R
+    400036: Armature|UpperArm.L
+    400038: Armature|UpperArm.R
+    400040: Armature|UpperLeg.L
+    400042: Armature|UpperLeg.R
+    400044: Bob
+    400046: //RootNode
+    4300000: Bob
+    7400000: Armature|Idle
+    7400002: Armature|Walk
+    9500000: //RootNode
+    13700000: Bob
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|ArmIK.L
+        weight: 1
+      - path: Armature/Armature|ArmIK.R
+        weight: 1
+      - path: Armature/Armature|Elbow.L
+        weight: 1
+      - path: Armature/Armature|Elbow.R
+        weight: 1
+      - path: Armature/Armature|Hip
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
+        weight: 1
+      - path: Armature/Armature|Knee.L
+        weight: 1
+      - path: Armature/Armature|Knee.R
+        weight: 1
+      - path: Armature/Armature|LegIK.L
+        weight: 1
+      - path: Armature/Armature|LegIK.L/Armature|Foot.L
+        weight: 1
+      - path: Armature/Armature|LegIK.R
+        weight: 1
+      - path: Armature/Armature|LegIK.R/Armature|Foot.R
+        weight: 1
+      - path: Bob
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|ArmIK.L
+        weight: 1
+      - path: Armature/Armature|ArmIK.R
+        weight: 1
+      - path: Armature/Armature|Elbow.L
+        weight: 1
+      - path: Armature/Armature|Elbow.R
+        weight: 1
+      - path: Armature/Armature|Hip
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
+        weight: 1
+      - path: Armature/Armature|Knee.L
+        weight: 1
+      - path: Armature/Armature|Knee.R
+        weight: 1
+      - path: Armature/Armature|LegIK.L
+        weight: 1
+      - path: Armature/Armature|LegIK.L/Armature|Foot.L
+        weight: 1
+      - path: Armature/Armature|LegIK.R
+        weight: 1
+      - path: Armature/Armature|LegIK.R/Armature|Foot.R
+        weight: 1
+      - path: Bob
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
