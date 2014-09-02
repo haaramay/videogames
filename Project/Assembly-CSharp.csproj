@@ -46,11 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraController.cs" />
-     <Compile Include="Assets\DetectCollisionWithPlayer.cs" />
-     <Compile Include="Assets\Health.cs" />
-     <Compile Include="Assets\TrapMovement.cs" />
-     <Compile Include="Assets\Walking.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DetectCollisionWithPlayer.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\Jumping.cs" />
+     <Compile Include="Assets\Scripts\TrapMovement.cs" />
+     <Compile Include="Assets\Scripts\Walking.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

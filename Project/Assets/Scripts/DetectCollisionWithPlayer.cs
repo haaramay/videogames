@@ -18,9 +18,8 @@ public class DetectCollisionWithPlayer : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Player") 
 		{ 
-			Debug.Log("HOLA");
 			health.InputDamage (1);
-			//Debug.Log(health.DisplayHealth());
+			Debug.Log(health.DisplayHealth());
 		}
 
 
