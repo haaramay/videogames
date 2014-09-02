@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\DetectCollisionWithPlayer.cs" />
      <Compile Include="Assets\Health.cs" />
      <Compile Include="Assets\TrapMovement.cs" />
      <Compile Include="Assets\Walking.cs" />

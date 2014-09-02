@@ -30,6 +30,10 @@ public class Health : MonoBehaviour {
 		if (health_points <= 0)
 			health_points = 0;
 	}
+	public int DisplayHealth()
+	{
+		return health_points;
+	}
 
 
 }
