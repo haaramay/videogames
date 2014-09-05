@@ -7,6 +7,16 @@ Trampas(Prefabricado): Se mueven-Reconocen al Jugador-Hacen Daño.
 Camara: Sigue al personaje.
 
 
+
+TAREAS INMEDIATAS:
+-Interacción con la Criatura. 	(Matías)
+-Habilidad de la Criatura para romper obstáculos. (Matías)
+-Arreglar Salto. Debe poder subirse a una plataforma. (Diego)
+-Crear Puerta de Salida. Cuando el Jugador la toque poner mensaje de "YOU WIN" (Hugo)
+
+
+
+
 Pendiente:
 Refinar Animaciones.
 Refinar Salto Triple.
