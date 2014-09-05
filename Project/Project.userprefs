@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\BackUp\Project - copia\Assets\Scripts\Jumping.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DetectCollisionWith.cs">
     <Files>
-      <File FileName="..\..\..\BackUp\Project - copia\Assets\Scripts\Jumping.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InteractWithCreature.cs" Line="47" Column="1" />
+      <File FileName="Assets\Scripts\DetectCollisionWith.cs" Line="4" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

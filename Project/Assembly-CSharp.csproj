@@ -47,8 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\DetectCollisionWithPlayer.cs" />
+     <Compile Include="Assets\Scripts\DetectCollisionWith.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\InteractWithCreature.cs" />
      <Compile Include="Assets\Scripts\Jumping.cs" />
      <Compile Include="Assets\Scripts\TrapMovement.cs" />
      <Compile Include="Assets\Scripts\Walking.cs" />

@@ -1,19 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DetectCollisionWithPlayer : MonoBehaviour {
-
+public class DetectCollisionWith : MonoBehaviour {
+	
 	// Use this for initialization
 	GameObject player;
 	Health health;
-
-
+	
+	
 	void Start()
 	{	
 		player = GameObject.FindWithTag ("Player");
 		health = player.GetComponent<Health> ();
 	}
-
+	
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.tag == "Player") 
@@ -22,6 +22,11 @@ public class DetectCollisionWithPlayer : MonoBehaviour {
 			Debug.Log(health.DisplayHealth());
 		}
 
+		if (other.gameObject.tag == "Creature") 
+		{
+			Destroy(this.gameObject);
+		}
 
+		
 	}
 }
