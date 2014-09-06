@@ -2,16 +2,16 @@
 using System.Collections;
 
 public class InteractWithCreature : MonoBehaviour {
-
-	// Use this for initialization
+	
+	
+	private Animator anim;
+	private Walking walking;
 	void Start () {
-	
+		anim = GetComponent<Animator> ();
+		walking = GetComponent<Walking> ();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	}
-
+	
 	void OnCollisionEnter(Collision collision)
 	{
 		/*if (collision.gameObject.tag == "Creature") 
@@ -27,20 +27,23 @@ public class InteractWithCreature : MonoBehaviour {
 		if (collision.gameObject.tag == "Creature") 
 		{
 			GameObject creature= collision.gameObject;
+			
 			transform.position= creature.transform.position+ (new Vector3(0f,5f,0f));
 			creature.transform.parent=this.transform;
-
+			
 			creature.transform.rotation=this.transform.rotation;
-
 			//Trigger Mount Animation & Status
-
+			walking.Mount_Creature(true);
+			
+			
+			
 		}
-
-
+		
+		
 	}
-
-
-
-
-
+	
+	
+	
+	
+	
 }
