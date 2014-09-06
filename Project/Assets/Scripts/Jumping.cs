@@ -23,9 +23,11 @@ public class Jumping : MonoBehaviour {
 	{
 		if(Input.GetKeyDown(KeyCode.UpArrow) && Jumps > 0)
 		{
+			//float jumpMovement = Input.GetAxis("Jump");
 			Jumps--;
-			Vector3 jump = new Vector3(0.0f,jumpStrength,0.0f);
-			rigidbody.velocity = jump*jumpStrength;
+			Vector3 jump = new Vector3(0.0f,2,0.0f);
+			rigidbody.velocity =(jump*jumpStrength);
+			//rigidbody.velocity = jump*jumpStrength;
 
 			anim.SetBool("BeJump",true);
 
@@ -37,6 +39,9 @@ public class Jumping : MonoBehaviour {
 	
 	void OnCollisionEnter(Collision collision)
 	{
-		Jumps = 3;
+		if (collision.gameObject.tag == "Floor") 
+		{
+			Jumps = 3;
+		}
 	}
 }
