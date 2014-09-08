@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour {
 	void Start () {
 		player = GameObject.FindWithTag ("Player");
 		offset = transform.position;//new Vector3 (0f, 5f, -20f);
-
+			
 	}
 	
 	// Update is called once per frame

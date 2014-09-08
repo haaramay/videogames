@@ -4,10 +4,8 @@ using System.Collections;
 public class InteractWithCreature : MonoBehaviour {
 	
 	
-	private Animator anim;
 	private Walking walking;
 	void Start () {
-		anim = GetComponent<Animator> ();
 		walking = GetComponent<Walking> ();
 	}
 	

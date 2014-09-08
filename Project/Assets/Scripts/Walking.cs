@@ -19,7 +19,13 @@ public class Walking : MonoBehaviour {
 	public void Mount_Creature(bool Mounting)
 	{
 		IsMounted = Mounting;
-		anim.SetBool("BeRiding",true);
+		anim.SetBool("BeRiding",Mounting);
+	
+		if (IsMounted) 
+			anim_creature=this.GetComponentsInChildren<Animator> ()[1]; //Find a better way to get child animator
+		else
+			anim_creature=null;
+
 	}
 	
 	
@@ -34,12 +40,7 @@ public class Walking : MonoBehaviour {
 		Vector3 movement = new Vector3 (movHorizontal,rigidbody.velocity.y, 0.0f );
 		rigidbody.velocity = movement;
 		
-		if (IsMounted) 
-		{
-			Animator[] child_anim=this.GetComponentsInChildren<Animator> ();
-			anim_creature=child_anim[1];//FIND A BETTER WAY TO GET THE CREATURE ANIMATOR
-		}
-		
+
 		if (movHorizontal != 0)
 		{
 			anim.SetBool("BeWalking",true);

@@ -11,7 +11,11 @@ public class DetectCollisionWith : MonoBehaviour {
 	void Start()
 	{	
 		player = GameObject.FindWithTag ("Player");
+
+
 		health = player.GetComponent<Health> ();
+		if (health== null)
+						Debug.Log ("AGAGA");
 	}
 	
 	void OnTriggerEnter(Collider other)
