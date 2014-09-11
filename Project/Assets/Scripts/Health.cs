@@ -6,6 +6,7 @@ public class Health : MonoBehaviour {
 
 	public int max_health;
 	private int health_points;
+	public GameObject health_display;
 
 
 	void Start()
@@ -13,26 +14,31 @@ public class Health : MonoBehaviour {
 		health_points = max_health;
 	}
 
-	// Update is called once per frame
-	void Update () 
-	{
-		if (health_points == 0) 
-		{
-			//INSERT HERE DEAD ANIMATION STUFF
-		}
 
-	}
+
 
 
 	public void InputDamage(int damage)
 	{
 		health_points -= damage;
-		if (health_points <= 0)
+		for (int i=0; i<damage; i++)
+			RemoveHearth ();
+			
+		if (health_points <= 0) 
+		{
 			health_points = 0;
+			//INSERT DEAD ANIMATION HERE
+		}
 	}
-	public int DisplayHealth()
+	private void RemoveHearth()
 	{
-		return health_points;
+		if (health_display.transform.childCount > 0) 
+		{
+			GameObject hearth = health_display.transform.GetChild (health_display.transform.childCount - 1).gameObject;
+			hearth.transform.parent=null;
+			Destroy (hearth);
+
+		}
 	}
 
 

@@ -4,28 +4,27 @@ using System.Collections;
 public class DetectCollisionWith : MonoBehaviour {
 	
 	// Use this for initialization
-	GameObject player;
-	Health health;
+	private GameObject player;  //Player reference
+	private Health health;		//Health script of the player
+	public int damage; 			//How much damage makes to the player
+
 	
 	
 	void Start()
 	{	
 		player = GameObject.FindWithTag ("Player");
-
-
 		health = player.GetComponent<Health> ();
-		if (health== null)
-						Debug.Log ("AGAGA");
 	}
 	
 	void OnTriggerEnter(Collider other)
 	{
+		//Damage Player
 		if (other.gameObject.tag == "Player") 
 		{ 
-			health.InputDamage (1);
-			Debug.Log(health.DisplayHealth());
+			health.InputDamage (damage);
 		}
 
+		//Destroy trap if monster touches it
 		if (other.gameObject.tag == "Creature") 
 		{
 			Destroy(this.gameObject);
