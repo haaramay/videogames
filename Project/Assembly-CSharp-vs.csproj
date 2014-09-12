@@ -51,6 +51,8 @@
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\InteractWithCreature.cs" />
      <Compile Include="Assets\Scripts\Jumping.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Rotation.cs" />
      <Compile Include="Assets\Scripts\TrapMovement.cs" />
      <Compile Include="Assets\Scripts\Walking.cs" />
   </ItemGroup>

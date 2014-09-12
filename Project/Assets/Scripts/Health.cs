@@ -7,11 +7,12 @@ public class Health : MonoBehaviour {
 	public int max_health;
 	private int health_points;
 	public GameObject health_display;
-
+	public GUIText loseText;
 
 	void Start()
 	{
 		health_points = max_health;
+		loseText.text = "";
 	}
 
 
@@ -27,6 +28,7 @@ public class Health : MonoBehaviour {
 		if (health_points <= 0) 
 		{
 			health_points = 0;
+			loseText.text = "You lose";
 			//INSERT DEAD ANIMATION HERE
 		}
 	}
