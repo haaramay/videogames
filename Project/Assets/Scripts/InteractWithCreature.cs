@@ -4,9 +4,9 @@ using System.Collections;
 public class InteractWithCreature : MonoBehaviour {
 	
 	
-	private Walking walking;
+	private Movement_Control movement_player;
 	void Start () {
-		walking = GetComponent<Walking> ();
+		movement_player = GetComponent<Movement_Control> ();
 	}
 	
 	
@@ -31,7 +31,7 @@ public class InteractWithCreature : MonoBehaviour {
 			
 			creature.transform.rotation=this.transform.rotation;
 			//Trigger Mount Animation & Status
-			walking.Mount_Creature(true);
+			movement_player.Mount_Creature(true);
 			
 			
 			

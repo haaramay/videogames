@@ -50,11 +50,10 @@
      <Compile Include="Assets\Scripts\DetectCollisionWith.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\InteractWithCreature.cs" />
-     <Compile Include="Assets\Scripts\Jumping.cs" />
+     <Compile Include="Assets\Scripts\Movement_Control.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
      <Compile Include="Assets\Scripts\TrapMovement.cs" />
-     <Compile Include="Assets\Scripts\Walking.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
