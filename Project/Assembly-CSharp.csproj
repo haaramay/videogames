@@ -46,12 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ActivateLever.cs" />
+     <Compile Include="Assets\Scripts\ActivateTrapSet.cs" />
+     <Compile Include="Assets\Scripts\ArrowMovement.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\DetectCollisionWith.cs" />
+     <Compile Include="Assets\Scripts\FoundExitDoor.cs" />
+     <Compile Include="Assets\Scripts\GateControl.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\InteractWithCreature.cs" />
+     <Compile Include="Assets\Scripts\LaunchArrow.cs" />
      <Compile Include="Assets\Scripts\Movement_Control.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
      <Compile Include="Assets\Scripts\TrapMovement.cs" />
   </ItemGroup>

@@ -8,8 +8,9 @@ public class DetectCollisionWith : MonoBehaviour {
 	private Health health;		//Health script of the player
 	public int damage; 			//How much damage makes to the player
 
-	
-	
+	public string DestroyerTag; //If the Trigger has this tag then destroy it
+
+
 	void Start()
 	{	
 		player = GameObject.FindWithTag ("Player");
@@ -22,14 +23,18 @@ public class DetectCollisionWith : MonoBehaviour {
 		if (other.gameObject.tag == "Player") 
 		{ 
 			health.InputDamage (damage);
+
 		}
 
-		//Destroy trap if monster touches it
-		if (other.gameObject.tag == "Creature") 
+		//Destroy trap if a specific monster touches it
+		if (other.gameObject.tag == DestroyerTag) 
 		{
 			Destroy(this.gameObject);
 		}
 
-		
+		//Destroy arrow if collides with something solid
+		if(this.gameObject.tag=="Arrow" && !other.isTrigger)
+			Destroy(this.gameObject);
+
 	}
 }

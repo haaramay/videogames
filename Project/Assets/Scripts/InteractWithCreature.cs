@@ -12,32 +12,30 @@ public class InteractWithCreature : MonoBehaviour {
 	
 	void OnCollisionEnter(Collision collision)
 	{
-		/*if (collision.gameObject.tag == "Creature") 
-		{
-			GameObject creature= collision.gameObject;
-			creature.transform.parent=this.transform;
-			creature.transform.position= this.transform.position- this.transform.forward*10;
 
-
-			creature.transform.LookAt(this.transform.position);
-		}
-		*/
 		if (collision.gameObject.tag == "Creature") 
 		{
 			GameObject creature= collision.gameObject;
-			
 			transform.position= creature.transform.position+ (new Vector3(0f,5f,0f));
 			creature.transform.parent=this.transform;
-			
+
 			creature.transform.rotation=this.transform.rotation;
 			//Trigger Mount Animation & Status
 			movement_player.Mount_Creature(true);
-			
-			
-			
 		}
-		
-		
+
+		if (collision.gameObject.tag == "Shield") 
+		{
+			GameObject shield= collision.gameObject;
+			shield.transform.localScale=new Vector3(1.5f,1.5f,1.5f);
+			shield.transform.position= this.transform.position+ (new Vector3(0f,12f,0f));
+			shield.transform.parent=this.transform;
+
+			shield.transform.rotation=this.transform.rotation;
+			movement_player.Get_Shield(true);
+
+		}
+
 	}
 	
 	
