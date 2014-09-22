@@ -25,6 +25,7 @@ public class ActivateLever : MonoBehaviour {
 		transform.Rotate (45f, 0f, 0f);
 		ActiveRotation = transform.rotation;
 		transform.rotation = UnactiveRotation;
+		TargetRotation = UnactiveRotation;
 		rotate_speed = 3.0f;
 
 	}
@@ -32,7 +33,8 @@ public class ActivateLever : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		transform.rotation = Quaternion.Lerp(transform.rotation, TargetRotation, rotate_speed * Time.deltaTime);
+		if(transform.rotation!= TargetRotation)
+			transform.rotation = Quaternion.Lerp(transform.rotation, TargetRotation, rotate_speed * Time.deltaTime);
 	}
 	void OnCollisionEnter(Collision collision)
 	{

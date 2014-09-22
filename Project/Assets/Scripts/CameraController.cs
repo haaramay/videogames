@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour {
 	private Vector3 offset;
 	// Use this for initialization
 	void Start () {
+		
 		player = GameObject.FindWithTag ("Player");
 		offset = transform.position-player.transform.position;//new Vector3 (0f, 5f, -20f);
 			
