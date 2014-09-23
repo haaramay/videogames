@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\DetectCollisionWith.cs" />
      <Compile Include="Assets\Scripts\FoundExitDoor.cs" />
      <Compile Include="Assets\Scripts\GateControl.cs" />
+     <Compile Include="Assets\Scripts\Gateway.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\InteractWithCreature.cs" />
      <Compile Include="Assets\Scripts\LaunchArrow.cs" />
