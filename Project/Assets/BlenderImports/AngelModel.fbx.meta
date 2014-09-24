@@ -115,6 +115,14 @@ ModelImporter:
     7400008: Armature|RodeBeast
     7400010: Armature|Tame
     7400012: Armature|Walk
+    7400014: Armature|Run
+    7400016: Armature|Fly
+    7400018: Armature|FlapWings
+    7400020: Armature|FlapWings0
+    7400022: Armature|AAA
+    7400024: Armature|Riding
+    7400026: Armature|UpCreature
+    7400028: Armature|RidingCreature
     9500000: //RootNode
     13700000: Bob
   materials:
@@ -137,7 +145,267 @@ ModelImporter:
       name: Armature|Idle
       takeName: Armature|Idle
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|ArmIK.L
+        weight: 1
+      - path: Armature/Armature|ArmIK.R
+        weight: 1
+      - path: Armature/Armature|Elbow.L
+        weight: 1
+      - path: Armature/Armature|Elbow.R
+        weight: 1
+      - path: Armature/Armature|Hip
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L/Armature|WingFingerTip1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L/Armature|WingFingerTip2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L/Armature|WingFingerTip3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|WingMiddle.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R/Armature|WingFingerTip1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R/Armature|WingFingerTip2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R/Armature|WingFingerTip3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|WingMiddle.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
+        weight: 1
+      - path: Armature/Armature|Knee.L
+        weight: 1
+      - path: Armature/Armature|Knee.R
+        weight: 1
+      - path: Armature/Armature|LegIK.L
+        weight: 1
+      - path: Armature/Armature|LegIK.L/Armature|Foot.L
+        weight: 1
+      - path: Armature/Armature|LegIK.R
+        weight: 1
+      - path: Armature/Armature|LegIK.R/Armature|Foot.R
+        weight: 1
+      - path: Bob
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|ArmIK.L
+        weight: 1
+      - path: Armature/Armature|ArmIK.R
+        weight: 1
+      - path: Armature/Armature|Elbow.L
+        weight: 1
+      - path: Armature/Armature|Elbow.R
+        weight: 1
+      - path: Armature/Armature|Hip
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L/Armature|WingFingerTip1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L/Armature|WingFingerTip2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L/Armature|WingFingerTip3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|WingMiddle.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R/Armature|WingFingerTip1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R/Armature|WingFingerTip2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R/Armature|WingFingerTip3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|WingMiddle.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
+        weight: 1
+      - path: Armature/Armature|Knee.L
+        weight: 1
+      - path: Armature/Armature|Knee.R
+        weight: 1
+      - path: Armature/Armature|LegIK.L
+        weight: 1
+      - path: Armature/Armature|LegIK.L/Armature|Foot.L
+        weight: 1
+      - path: Armature/Armature|LegIK.R
+        weight: 1
+      - path: Armature/Armature|LegIK.R/Armature|Foot.R
+        weight: 1
+      - path: Bob
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -267,7 +535,274 @@ ModelImporter:
       name: Armature|Jump
       takeName: Armature|Jump
       firstFrame: 0
-      lastFrame: 60
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .901459873
+        functionName: Set_IsFlying
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|ArmIK.L
+        weight: 1
+      - path: Armature/Armature|ArmIK.R
+        weight: 1
+      - path: Armature/Armature|Elbow.L
+        weight: 1
+      - path: Armature/Armature|Elbow.R
+        weight: 1
+      - path: Armature/Armature|Hip
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L/Armature|WingFingerTip1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L/Armature|WingFingerTip2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L/Armature|WingFingerTip3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|WingMiddle.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R/Armature|WingFingerTip1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R/Armature|WingFingerTip2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R/Armature|WingFingerTip3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|WingMiddle.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
+        weight: 1
+      - path: Armature/Armature|Knee.L
+        weight: 1
+      - path: Armature/Armature|Knee.R
+        weight: 1
+      - path: Armature/Armature|LegIK.L
+        weight: 1
+      - path: Armature/Armature|LegIK.L/Armature|Foot.L
+        weight: 1
+      - path: Armature/Armature|LegIK.R
+        weight: 1
+      - path: Armature/Armature|LegIK.R/Armature|Foot.R
+        weight: 1
+      - path: Bob
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Fly
+      takeName: Armature|Fly
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|ArmIK.L
+        weight: 1
+      - path: Armature/Armature|ArmIK.R
+        weight: 1
+      - path: Armature/Armature|Elbow.L
+        weight: 1
+      - path: Armature/Armature|Elbow.R
+        weight: 1
+      - path: Armature/Armature|Hip
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L/Armature|WingFingerTip1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L/Armature|WingFingerTip2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L/Armature|WingFingerTip3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK1.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK2.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK3.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|WingMiddle.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R/Armature|WingFingerTip1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R/Armature|WingFingerTip2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R/Armature|WingFingerTip3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK1.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK2.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK3.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|WingMiddle.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R
+        weight: 1
+      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
+        weight: 1
+      - path: Armature/Armature|Knee.L
+        weight: 1
+      - path: Armature/Armature|Knee.R
+        weight: 1
+      - path: Armature/Armature|LegIK.L
+        weight: 1
+      - path: Armature/Armature|LegIK.L/Armature|Foot.L
+        weight: 1
+      - path: Armature/Armature|LegIK.R
+        weight: 1
+      - path: Armature/Armature|LegIK.R/Armature|Foot.R
+        weight: 1
+      - path: Bob
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|FlapWings
+      takeName: Armature|FlapWings
+      firstFrame: 0
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -397,272 +932,12 @@ ModelImporter:
       name: Armature|Mount
       takeName: Armature|Mount
       firstFrame: 0
-      lastFrame: 49
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature/Armature|ArmIK.L
-        weight: 1
-      - path: Armature/Armature|ArmIK.R
-        weight: 1
-      - path: Armature/Armature|Elbow.L
-        weight: 1
-      - path: Armature/Armature|Elbow.R
-        weight: 1
-      - path: Armature/Armature|Hip
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L/Armature|WingFingerTip1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L/Armature|WingFingerTip2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L/Armature|WingFingerTip3.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK3.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|WingMiddle.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R/Armature|WingFingerTip1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R/Armature|WingFingerTip2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R/Armature|WingFingerTip3.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK3.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|WingMiddle.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
-        weight: 1
-      - path: Armature/Armature|Knee.L
-        weight: 1
-      - path: Armature/Armature|Knee.R
-        weight: 1
-      - path: Armature/Armature|LegIK.L
-        weight: 1
-      - path: Armature/Armature|LegIK.L/Armature|Foot.L
-        weight: 1
-      - path: Armature/Armature|LegIK.R
-        weight: 1
-      - path: Armature/Armature|LegIK.R/Armature|Foot.R
-        weight: 1
-      - path: Bob
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Armature|RodeBeast
-      takeName: Armature|RodeBeast
-      firstFrame: 0
       lastFrame: 35
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature/Armature|ArmIK.L
-        weight: 1
-      - path: Armature/Armature|ArmIK.R
-        weight: 1
-      - path: Armature/Armature|Elbow.L
-        weight: 1
-      - path: Armature/Armature|Elbow.R
-        weight: 1
-      - path: Armature/Armature|Hip
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Head
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase1.L/Armature|WingFingerTip1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase2.L/Armature|WingFingerTip2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingFingerBase3.L/Armature|WingFingerTip3.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK1.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK2.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|Wing2.L/Armature|WingHinge.L/Armature|WingIKHolder.L/Armature|WingIK3.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.L/Armature|WingMiddle.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase1.R/Armature|WingFingerTip1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase2.R/Armature|WingFingerTip2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingFingerBase3.R/Armature|WingFingerTip3.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK1.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK2.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|Wing2.R/Armature|WingHinge.R/Armature|WingIKHolder.R/Armature|WingIK3.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|Chest/Armature|Wing1.R/Armature|WingMiddle.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.L/Armature|LoweArm.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperArm.R/Armature|LoweArm.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.L/Armature|LowerLeg.L
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.R
-        weight: 1
-      - path: Armature/Armature|Hip/Armature|UpperLeg.R/Armature|LowerLeg.R
-        weight: 1
-      - path: Armature/Armature|Knee.L
-        weight: 1
-      - path: Armature/Armature|Knee.R
-        weight: 1
-      - path: Armature/Armature|LegIK.L
-        weight: 1
-      - path: Armature/Armature|LegIK.L/Armature|Foot.L
-        weight: 1
-      - path: Armature/Armature|LegIK.R
-        weight: 1
-      - path: Armature/Armature|LegIK.R/Armature|Foot.R
-        weight: 1
-      - path: Bob
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Armature|Tame
-      takeName: Armature|Tame
-      firstFrame: 0
-      lastFrame: 30
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -675,7 +950,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 1
+        functionName: Set_MountPosition
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -784,10 +1066,10 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Walk
-      takeName: Armature|Walk
+      name: Armature|Riding
+      takeName: Armature|Riding
       firstFrame: 0
-      lastFrame: 120
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

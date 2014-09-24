@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Movement_Control : MonoBehaviour {
-
+	
 	private Animator anim;
 	private GameObject creature;
 	private GameObject shield;
@@ -15,15 +15,18 @@ public class Movement_Control : MonoBehaviour {
 	public float speed;
 	public float jumpStrength;
 	private int Jumps;
+	
+	
 	private int Lock;
 	
-		
+	
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
 		Jumps = 3;
 		IsMounted = false;
 		ActiveShield = false;
+		
 		Lock = 0;
 	}
 	
@@ -36,28 +39,8 @@ public class Movement_Control : MonoBehaviour {
 			if(value.tag==tag)
 				return value.gameObject;
 		return null;
-		
 	}
 	
-	public void Mount_Creature(bool Mounting)
-	{
-		IsMounted = Mounting;
-		anim.SetBool("IsRiding",Mounting);
-		
-		if (IsMounted)
-			creature = FindChildren ("Creature");
-		else
-			creature=null;
-	}
-	public void Get_Shield(bool GainShield)
-	{
-		if (GainShield)
-			shield = FindChildren ("Shield");
-		else
-			shield = null;
-	}
-
-
 	public int Get_Lock()
 	{
 		return Lock;
@@ -73,6 +56,33 @@ public class Movement_Control : MonoBehaviour {
 	}
 	
 	
+	public void Mount_Creature()
+	{
+		IsMounted = true;
+		anim.SetTrigger ("Mount");
+		creature = FindChildren ("Creature");
+	}
+	void Set_MountPosition()
+	{
+		float height = 4.8f;
+		transform.position = creature.transform.position + (new Vector3 (0f, height, 0f));
+		creature.transform.localPosition = new Vector3 (0, -height, 0);
+	}
+
+
+
+
+
+	public void Get_Shield(bool GainShield)
+	{
+		if (GainShield)
+			shield = FindChildren ("Shield");
+		else
+			shield = null;
+	}
+	
+	
+	
 	void Update()
 	{
 		if ( Input.GetKeyUp(KeyCode.LeftControl) && shield != null)
@@ -80,7 +90,7 @@ public class Movement_Control : MonoBehaviour {
 			if(!ActiveShield) ActiveShield=true;
 			else ActiveShield=false;
 			shield.GetComponent<Animator> ().SetBool ("ActiveShield", ActiveShield);
-
+			
 			if(ActiveShield)
 			{
 				float direction=transform.forward.x;
@@ -129,25 +139,28 @@ public class Movement_Control : MonoBehaviour {
 			rigidbody.velocity =(jump);
 			//rigidbody.velocity = jump*jumpStrength;
 			
-			anim.SetTrigger("Jump");
+			anim.SetTrigger("Jump"); //Jumps if is on the ground. Flaps if it's on air
 		}
-
-
+		
 		//LOCK
 		if(Lock>0)
 			Lock--;
-		
-		
 	}
+	
 	
 	void OnCollisionEnter(Collision collision)
 	{
 		//Restart Jumps
 		if (collision.gameObject.tag == "Floor") 
+		{
+			anim.SetBool ("IsFlying", false);
 			Jumps = 3;
-		
+		}
 	}
-
+	void Set_IsFlying()
+	{
+		anim.SetBool ("IsFlying", true);
+	}
 
 	
 

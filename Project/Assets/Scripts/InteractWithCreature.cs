@@ -17,11 +17,9 @@ public class InteractWithCreature : MonoBehaviour {
 		{
 			GameObject creature= collision.gameObject;
 
-			transform.position= creature.transform.position+ (new Vector3(0f,5f,0f));
 			creature.transform.rotation=this.transform.rotation;
 			creature.transform.parent=this.transform;
-			
-			movement_player.Mount_Creature(true);
+			movement_player.Mount_Creature();
 			//Trigger Mount Animation & Status
 		}
 
