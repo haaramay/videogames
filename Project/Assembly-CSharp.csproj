@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\InteractWithCreature.cs" />
      <Compile Include="Assets\Scripts\LaunchArrow.cs" />
+     <Compile Include="Assets\Scripts\LaunchSphere.cs" />
      <Compile Include="Assets\Scripts\Movement_Control.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
      <Compile Include="Assets\Scripts\TrapMovement.cs" />
