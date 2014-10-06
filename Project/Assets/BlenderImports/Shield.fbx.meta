@@ -18,6 +18,7 @@ ModelImporter:
     7400002: Armature|Oscilate_mini
     7400004: Armature|Oscilate_circular
     7400006: Armature|Oscilate_Vertical
+    7400008: Armature|RestMove
     9500000: //RootNode
     13700000: Shield
   materials:
@@ -75,6 +76,42 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|Oscilate_Vertical
       takeName: Armature|Oscilate_Vertical
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Control_Bone
+        weight: 1
+      - path: Armature/Armature|Control_Bone/Armature|Shield_Bone
+        weight: 1
+      - path: Shield
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|RestMove
+      takeName: Armature|RestMove
       firstFrame: 0
       lastFrame: 20
       wrapMode: 0

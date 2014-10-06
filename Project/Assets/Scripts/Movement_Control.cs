@@ -18,6 +18,8 @@ public class Movement_Control : MonoBehaviour {
 	
 	
 	private int Lock;
+	private bool Lerping;
+	private Vector3 Lerp_Position;
 	
 	
 	// Use this for initialization
@@ -28,6 +30,7 @@ public class Movement_Control : MonoBehaviour {
 		ActiveShield = false;
 		
 		Lock = 0;
+		Lerping = false;
 	}
 	
 	//Called from Interact with Creature
@@ -49,7 +52,6 @@ public class Movement_Control : MonoBehaviour {
 	{
 		Lock = lock_time;
 	}
-	
 	public void Update_Lock(int update)
 	{
 		Lock = Lock + update;
@@ -61,16 +63,11 @@ public class Movement_Control : MonoBehaviour {
 		IsMounted = true;
 		anim.SetTrigger ("Mount");
 		creature = FindChildren ("Creature");
-	}
-	void Set_MountPosition()
-	{
+
 		float height = 4.8f;
-		transform.position = creature.transform.position + (new Vector3 (0f, height, 0f));
-		creature.transform.localPosition = new Vector3 (0, -height, 0);
+		Lerp_Position= creature.transform.position + (new Vector3 (0f, height, 0f));
+		Lerping = true;
 	}
-
-
-
 
 
 	public void Get_Shield(bool GainShield)
@@ -80,11 +77,11 @@ public class Movement_Control : MonoBehaviour {
 		else
 			shield = null;
 	}
-	
-	
-	
+
+
 	void Update()
 	{
+		//SHIELD POSITIONING
 		if ( Input.GetKeyUp(KeyCode.LeftControl) && shield != null)
 		{
 			if(!ActiveShield) ActiveShield=true;
@@ -99,10 +96,25 @@ public class Movement_Control : MonoBehaviour {
 			}
 			else
 			{
-				shield.transform.position= this.transform.position + (new Vector3(0f,12f,0f));
+
+				shield.transform.position= this.transform.position + (new Vector3(0f,12f,0f))-this.transform.forward*2;
 				shield.transform.localScale= (new Vector3(1.5f,1.5f,1.5f));
 			}
 		}
+
+		//MAKE THIS STUFF ELEGANT
+		if(Lerping)
+		{
+			creature.transform.parent=null;
+			transform.position=Vector3.Lerp(transform.position,Lerp_Position,Time.deltaTime*2.0f);
+			creature.transform.parent=this.transform;
+			if( Vector3.Distance(transform.position,Lerp_Position)<0.1)
+			{
+				transform.position=Lerp_Position;
+				Lerping=false;
+			}
+		}
+
 	}
 	
 	void FixedUpdate() 
@@ -146,8 +158,6 @@ public class Movement_Control : MonoBehaviour {
 		if(Lock>0)
 			Lock--;
 	}
-	
-	
 	void OnCollisionEnter(Collision collision)
 	{
 		//Restart Jumps
@@ -157,6 +167,8 @@ public class Movement_Control : MonoBehaviour {
 			Jumps = 3;
 		}
 	}
+
+	//Called at the end of Jump animation
 	void Set_IsFlying()
 	{
 		anim.SetBool ("IsFlying", true);

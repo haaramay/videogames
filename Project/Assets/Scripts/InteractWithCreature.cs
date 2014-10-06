@@ -28,7 +28,7 @@ public class InteractWithCreature : MonoBehaviour {
 			GameObject shield= collision.gameObject;
 			shield.transform.parent=this.transform;
 
-			shield.transform.position= this.transform.position+  new Vector3(0f,12f,0f);
+			shield.transform.position= this.transform.position+  new Vector3(0f,12f,0f)-this.transform.forward*2;
 			shield.transform.localScale= new Vector3(1.5f,1.5f,1.5f);
 
 			shield.transform.rotation=this.transform.rotation;
