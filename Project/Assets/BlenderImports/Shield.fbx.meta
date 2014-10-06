@@ -8,12 +8,15 @@ ModelImporter:
     100004: Armature|Shield_Bone
     100006: //RootNode
     100008: Shield
+    100010: Eyeball
     400000: Armature
     400002: Armature|Control_Bone
     400004: Armature|Shield_Bone
     400006: //RootNode
     400008: Shield
+    400010: Eyeball
     4300000: Shield
+    4300002: Eyeball
     7400000: Armature|Oscilate_Big
     7400002: Armature|Oscilate_mini
     7400004: Armature|Oscilate_circular
@@ -21,6 +24,7 @@ ModelImporter:
     7400008: Armature|RestMove
     9500000: //RootNode
     13700000: Shield
+    13700002: Eyeball
   materials:
     importMaterials: 1
     materialName: 0

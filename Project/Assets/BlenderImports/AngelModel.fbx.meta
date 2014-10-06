@@ -55,6 +55,16 @@ ModelImporter:
     100098: Armature|WingMiddle.L
     100100: Armature|WingMiddle.R
     100102: Bob
+    100104: ArmorArm
+    100106: ArmorBody
+    100108: ArmorHip
+    100110: ArmorLeg
+    100112: ArmorShoulder
+    100114: Camera
+    100116: Feather
+    100118: Lamp
+    100120: Sphere
+    100122: Wing.001
     400000: //RootNode
     400002: Armature
     400004: Armature|ArmIK.L
@@ -107,7 +117,31 @@ ModelImporter:
     400098: Armature|WingMiddle.L
     400100: Armature|WingMiddle.R
     400102: Bob
+    400104: ArmorArm
+    400106: ArmorBody
+    400108: ArmorHip
+    400110: ArmorLeg
+    400112: ArmorShoulder
+    400114: Camera
+    400116: Feather
+    400118: Lamp
+    400120: Sphere
+    400122: Wing.001
+    2300000: Feather
+    2300002: Sphere
+    2300004: Wing.001
+    3300000: Feather
+    3300002: Sphere
+    3300004: Wing.001
     4300000: Bob
+    4300002: Wing.001
+    4300004: Feather
+    4300006: ArmorHip
+    4300008: ArmorLeg
+    4300010: ArmorBody
+    4300012: ArmorShoulder
+    4300014: ArmorArm
+    4300016: Sphere
     7400000: Armature|Idle
     7400002: Armature|Idle.001
     7400004: Armature|Jump
@@ -125,6 +159,11 @@ ModelImporter:
     7400028: Armature|RidingCreature
     9500000: //RootNode
     13700000: Bob
+    13700002: ArmorArm
+    13700004: ArmorBody
+    13700006: ArmorHip
+    13700008: ArmorLeg
+    13700010: ArmorShoulder
   materials:
     importMaterials: 1
     materialName: 0
